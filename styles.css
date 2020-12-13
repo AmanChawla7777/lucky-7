@@ -1,0 +1,72 @@
+.container {
+  width: 85%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+.dice img{
+  border: 6px solid black;
+  margin-top: 0px;
+  padding-top: 0px;
+  border-radius: 20%;
+}
+
+body {
+  background-color: rgb(66, 110, 180);
+}
+
+h1 {
+  margin: 20px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+h2
+{
+  /* display: inline; */
+  margin: 20px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 2.5rem;
+  color: #4ECCA3;
+}
+
+.options{
+  display:table;
+  margin:auto; /* if you want header be center in it's parent */
+}
+.option{
+  display:table-cell;
+}
+
+.option:hover{
+  cursor: pointer;
+}
+
+#reset:hover{
+  cursor: pointer;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 77%;
+}
+
+footer {
+  margin-top: 6%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
